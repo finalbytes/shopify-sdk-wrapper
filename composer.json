@@ -1,0 +1,31 @@
+{
+    "name": "finalbytes/shopify-sdk-wrapper",
+    "description": "A Laravel wrapper for Shopify SDK",
+    "type": "library",
+    "require": {
+        "php": "^8.3",
+        "guzzlehttp/guzzle": "^7.8.0",
+        "ext-json": "*",
+        "shopify/shopify-api": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Finalbytes\\ShopifySdkWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Kerstjens",
+            "email": "k.kerstjens@finalbytes.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Finalbytes\\ShopifySdkWrapper\\ShopifyWrapperServiceProvider"
+            ]
+        }
+    }
+}
