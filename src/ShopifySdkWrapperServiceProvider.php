@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Finalbytes\ShopifySdkWrapper;
+
 use Illuminate\Support\ServiceProvider;
 
 class ShopifySdkWrapperServiceProvider extends ServiceProvider

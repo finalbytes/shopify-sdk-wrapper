@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Finalbytes\ShopifySdkWrapper;
+
 use Psr\Http\Client\ClientExceptionInterface;
 use Shopify\Clients\HttpResponse;
 use Shopify\Clients\Rest;
