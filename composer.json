@@ -1,12 +1,15 @@
 {
     "name": "finalbytes/shopify-sdk-wrapper",
     "description": "A Laravel wrapper for Shopify SDK",
-    "type": "library",
+    "type": "package",
     "require": {
         "php": "^8.1",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.8.0",
         "shopify/shopify-api": "dev-main"
+    },
+    "config": {
+        "sort-packages": true
     },
     "license": "MIT",
     "autoload": {
@@ -21,6 +24,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "homepage": "https://github.com/finalbytes/shopify-sdk-wrapper",
     "extra": {
         "laravel": {
             "providers": [
