@@ -6,7 +6,7 @@ namespace Finalbytes\ShopifySdkWrapper;
 
 use Illuminate\Support\ServiceProvider;
 
-class ShopifySdkWrapperServiceProvider extends ServiceProvider
+class ShopifyWrapperServiceProvider extends ServiceProvider
 {
     public function register()
     {

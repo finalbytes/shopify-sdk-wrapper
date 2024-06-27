@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91985c9d3aa9868c4d407ddfb050d85e",
+    "content-hash": "64049d3c40eefba50b367f629cadd011",
     "packages": [
         {
             "name": "brick/math",
@@ -899,12 +899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "edd306ee78d2ab08b4821e1285e2124452450adc"
+                "reference": "f07ccaa0206b743c353330c38c9e6e6d30de7552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/edd306ee78d2ab08b4821e1285e2124452450adc",
-                "reference": "edd306ee78d2ab08b4821e1285e2124452450adc",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/f07ccaa0206b743c353330c38c9e6e6d30de7552",
+                "reference": "f07ccaa0206b743c353330c38c9e6e6d30de7552",
                 "shasum": ""
             },
             "require": {
@@ -984,11 +984,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-17T21:44:05+00:00"
+            "time": "2024-06-24T21:31:37+00:00"
         },
         {
             "name": "shopify/shopify-api",
-            "version": "dev-main",
+            "version": "v5.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Shopify/shopify-api-php.git",
@@ -1026,7 +1026,6 @@
             "suggest": {
                 "ext-apcu": "Log fewer API deprecation warnings"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1133,9 +1132,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "shopify/shopify-api": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
